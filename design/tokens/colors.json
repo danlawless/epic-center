@@ -1,0 +1,94 @@
+{
+  "color": {
+    "primary": {
+      "50": { "value": "#f0f7f7", "type": "color" },
+      "100": { "value": "#d9ebea", "type": "color" },
+      "200": { "value": "#b3d7d5", "type": "color" },
+      "300": { "value": "#80bbb8", "type": "color" },
+      "400": { "value": "#4d9f9a", "type": "color" },
+      "500": { "value": "#2d7a76", "type": "color" },
+      "600": { "value": "#1a5a57", "type": "color" },
+      "700": { "value": "#1a4a47", "type": "color" },
+      "800": { "value": "#1a3a3a", "type": "color", "description": "Main brand color" },
+      "900": { "value": "#152c2c", "type": "color" }
+    },
+    "secondary": {
+      "50": { "value": "#faf8f1", "type": "color" },
+      "100": { "value": "#f2edd9", "type": "color" },
+      "200": { "value": "#e5dbb3", "type": "color" },
+      "300": { "value": "#d4c488", "type": "color" },
+      "400": { "value": "#c4a962", "type": "color", "description": "Main accent color" },
+      "500": { "value": "#b39347", "type": "color" },
+      "600": { "value": "#9a7a3a", "type": "color" },
+      "700": { "value": "#7d6131", "type": "color" },
+      "800": { "value": "#674f2d", "type": "color" },
+      "900": { "value": "#574329", "type": "color" }
+    },
+    "neutral": {
+      "50": { "value": "#fafaf8", "type": "color", "description": "Page background" },
+      "100": { "value": "#f5f5f2", "type": "color", "description": "Card background" },
+      "200": { "value": "#e8e8e3", "type": "color" },
+      "300": { "value": "#d4d4cd", "type": "color" },
+      "400": { "value": "#a8a89e", "type": "color" },
+      "500": { "value": "#7a7a70", "type": "color" },
+      "600": { "value": "#5c5c54", "type": "color" },
+      "700": { "value": "#454540", "type": "color", "description": "Body text" },
+      "800": { "value": "#2e2e2a", "type": "color" },
+      "900": { "value": "#1a1a18", "type": "color", "description": "Headings" }
+    },
+    "success": {
+      "50": { "value": "#f0fdf4", "type": "color" },
+      "500": { "value": "#22c55e", "type": "color" },
+      "700": { "value": "#15803d", "type": "color" }
+    },
+    "warning": {
+      "50": { "value": "#fffbeb", "type": "color" },
+      "500": { "value": "#f59e0b", "type": "color" },
+      "700": { "value": "#b45309", "type": "color" }
+    },
+    "error": {
+      "50": { "value": "#fef2f2", "type": "color" },
+      "500": { "value": "#ef4444", "type": "color" },
+      "700": { "value": "#b91c1c", "type": "color" }
+    },
+    "info": {
+      "50": { "value": "#eff6ff", "type": "color" },
+      "500": { "value": "#3b82f6", "type": "color" },
+      "700": { "value": "#1d4ed8", "type": "color" }
+    }
+  },
+  "semantic": {
+    "background": {
+      "primary": { "value": "{color.neutral.50}", "type": "color" },
+      "secondary": { "value": "{color.neutral.100}", "type": "color" },
+      "inverse": { "value": "{color.primary.800}", "type": "color" }
+    },
+    "text": {
+      "primary": { "value": "{color.neutral.900}", "type": "color" },
+      "secondary": { "value": "{color.neutral.700}", "type": "color" },
+      "muted": { "value": "{color.neutral.500}", "type": "color" },
+      "inverse": { "value": "#ffffff", "type": "color" }
+    },
+    "border": {
+      "default": { "value": "{color.neutral.300}", "type": "color" },
+      "focus": { "value": "{color.primary.600}", "type": "color" }
+    },
+    "button": {
+      "primary": {
+        "background": { "value": "{color.primary.800}", "type": "color" },
+        "text": { "value": "#ffffff", "type": "color" },
+        "hover": { "value": "{color.primary.700}", "type": "color" }
+      },
+      "secondary": {
+        "background": { "value": "transparent", "type": "color" },
+        "text": { "value": "{color.primary.800}", "type": "color" },
+        "border": { "value": "{color.primary.800}", "type": "color" }
+      },
+      "accent": {
+        "background": { "value": "{color.secondary.400}", "type": "color" },
+        "text": { "value": "{color.primary.900}", "type": "color" },
+        "hover": { "value": "{color.secondary.500}", "type": "color" }
+      }
+    }
+  }
+}
