@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Discover the medical science and evidence-based protocols behind Transformational Epicenter. Rigorous safety screening, continuous monitoring, and measurable outcomes.">
+
+  <title>The Science | Transformational Epicenter</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@300;400;500;600&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <style>
+    .protocol-card {
+      background: white;
+      border-radius: var(--radius-xl);
+      padding: var(--space-8);
+      box-shadow: var(--shadow-md);
+    }
+
+    .protocol-card__header {
+      display: flex;
+      align-items: center;
+      gap: var(--space-4);
+      margin-bottom: var(--space-6);
+      padding-bottom: var(--space-6);
+      border-bottom: 1px solid var(--neutral-200);
+    }
+
+    .protocol-card__icon {
+      width: 64px;
+      height: 64px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(135deg, var(--primary-800) 0%, var(--primary-600) 100%);
+      border-radius: var(--radius-lg);
+      font-size: var(--text-2xl);
+    }
+
+    .protocol-card__title {
+      font-size: var(--text-xl);
+      margin-bottom: var(--space-1);
+    }
+
+    .protocol-card__subtitle {
+      font-family: var(--font-accent);
+      font-size: var(--text-sm);
+      color: var(--secondary-500);
+    }
+
+    .protocol-list {
+      display: grid;
+      gap: var(--space-3);
+    }
+
+    .protocol-list__item {
+      display: flex;
+      align-items: flex-start;
+      gap: var(--space-3);
+      font-size: var(--text-sm);
+    }
+
+    .protocol-list__item::before {
+      content: '';
+      width: 8px;
+      height: 8px;
+      background-color: var(--secondary-400);
+      border-radius: 50%;
+      flex-shrink: 0;
+      margin-top: 6px;
+    }
+
+    .outcome-metric {
+      text-align: center;
+      padding: var(--space-8);
+    }
+
+    .outcome-metric__value {
+      font-family: var(--font-heading);
+      font-size: var(--text-6xl);
+      color: var(--secondary-400);
+      line-height: 1;
+      margin-bottom: var(--space-2);
+    }
+
+    .outcome-metric__label {
+      font-family: var(--font-accent);
+      font-size: var(--text-sm);
+      color: var(--neutral-600);
+      margin-bottom: var(--space-2);
+    }
+
+    .outcome-metric__description {
+      font-size: var(--text-sm);
+      color: var(--neutral-500);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav" role="navigation" aria-label="Main navigation">
+    <div class="container">
+      <div class="nav__inner">
+        <a href="index.html" class="nav__logo">
+          Transformational<span>Epicenter</span>
+        </a>
+
+        <div class="nav__links">
+          <a href="experience.html" class="nav__link">The Experience</a>
+          <a href="programs.html" class="nav__link">Programs</a>
+          <a href="science.html" class="nav__link nav__link--active">The Science</a>
+          <a href="location.html" class="nav__link">The Location</a>
+          <a href="about.html" class="nav__link">About</a>
+          <a href="apply.html" class="btn btn--gold nav__cta">Begin Your Journey</a>
+        </div>
+
+        <button class="nav__toggle" aria-label="Toggle menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <header class="page-header">
+    <div class="page-header__bg">
+      <!-- PLACEHOLDER IMAGE: science-hero.jpg -->
+      <div class="image-placeholder" style="width: 100%; height: 100%; min-height: 60vh; border-radius: 0;">
+        <div class="image-placeholder__text">
+          <div class="image-placeholder__icon">&#128300;</div>
+          <div class="image-placeholder__label">[IMAGE: science-hero.jpg]</div>
+        </div>
+      </div>
+      <div class="page-header__overlay"></div>
+    </div>
+    <div class="page-header__content">
+      <p class="eyebrow mb-4" style="color: var(--secondary-400);">Evidence-Based Care</p>
+      <h1 class="page-header__title">The Science of Transformation</h1>
+      <p class="page-header__subtitle">
+        Medical rigor, measurable outcomes, and evidence-based protocols. Safety is our sacred responsibility.
+      </p>
+    </div>
+  </header>
+
+  <!-- Introduction -->
+  <section class="section">
+    <div class="container container--text text-center">
+      <h2 class="mb-6">Safety as Sacred</h2>
+      <p class="lead mb-6">
+        Every system, protocol, and design decision prioritizes your wellbeing. Medical oversight is non-negotiable. Technology serves as a safety net, never a replacement for human care.
+      </p>
+      <p>
+        We combine the profound potential of plant medicine with the precision of modern medical science. This integration allows us to offer experiences that are both deeply transformative and rigorously safe.
+      </p>
+    </div>
+  </section>
+
+  <!-- Medical Team -->
+  <section class="section section--cream">
+    <div class="container">
+      <div class="content-section">
+        <div class="content-section__text">
+          <p class="eyebrow mb-4">Medical Leadership</p>
+          <h2 class="mb-6">Your Care Team</h2>
+          <p class="mb-6">
+            Our medical team brings together expertise in emergency medicine, psychiatry, cardiology, and integrative health. Every guest is supported by a comprehensive team throughout their journey.
+          </p>
+
+          <div class="feature-list">
+            <div class="feature-item">
+              <div class="feature-item__icon">&#129658;</div>
+              <div class="feature-item__content">
+                <h4>Medical Director</h4>
+                <p>Oversees all protocols, physician supervision, emergency procedures, and quality assurance.</p>
+              </div>
+            </div>
+            <div class="feature-item">
+              <div class="feature-item__icon">&#128104;&#8205;&#9877;&#65039;</div>
+              <div class="feature-item__content">
+                <h4>On-Site Physician</h4>
+                <p>Present 24/7 during ceremonies for medical clearance, assessment, and emergency response.</p>
+              </div>
+            </div>
+            <div class="feature-item">
+              <div class="feature-item__icon">&#128105;&#8205;&#9877;&#65039;</div>
+              <div class="feature-item__content">
+                <h4>Nursing Staff</h4>
+                <p>Continuous monitoring, vital signs, IV therapy administration, and compassionate care.</p>
+              </div>
+            </div>
+            <div class="feature-item">
+              <div class="feature-item__icon">&#128101;</div>
+              <div class="feature-item__content">
+                <h4>Support Staff</h4>
+                <p>Lab coordination, medical records, equipment maintenance, and operational support.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="content-section__image">
+          <!-- PLACEHOLDER IMAGE: medical-team.jpg -->
+          <div class="image-placeholder" style="height: 500px;">
+            <div class="image-placeholder__text">
+              <div class="image-placeholder__icon">&#129657;</div>
+              <div class="image-placeholder__label">[IMAGE: medical-team.jpg]</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Screening Protocol -->
+  <section class="section">
+    <div class="container container--content">
+      <div class="text-center mb-12">
+        <p class="eyebrow mb-4">Pre-Arrival</p>
+        <h2 class="mb-6">Comprehensive Medical Screening</h2>
+        <p class="lead" style="max-width: 700px; margin: 0 auto;">
+          Before arrival, every guest undergoes rigorous evaluation to ensure safety. This thorough process protects you and allows us to tailor your care.
+        </p>
+      </div>
+
+      <div class="grid grid--2">
+        <div class="protocol-card">
+          <div class="protocol-card__header">
+            <div class="protocol-card__icon">&#128147;</div>
+            <div>
+              <h3 class="protocol-card__title">Cardiovascular Screening</h3>
+              <p class="protocol-card__subtitle">Critical for ibogaine safety</p>
+            </div>
+          </div>
+          <div class="protocol-list">
+            <div class="protocol-list__item">History of arrhythmias or heart conditions</div>
+            <div class="protocol-list__item">QT prolongation assessment</div>
+            <div class="protocol-list__item">12-lead ECG within 14 days of arrival</div>
+            <div class="protocol-list__item">Blood pressure and heart rate evaluation</div>
+            <div class="protocol-list__item">Family history of sudden cardiac death</div>
+            <div class="protocol-list__item">Current cardiac medication review</div>
+          </div>
+        </div>
+
+        <div class="protocol-card">
+          <div class="protocol-card__header">
+            <div class="protocol-card__icon">&#128065;</div>
+            <div>
+              <h3 class="protocol-card__title">Psychiatric Assessment</h3>
+              <p class="protocol-card__subtitle">Mental health evaluation</p>
+            </div>
+          </div>
+          <div class="protocol-list">
+            <div class="protocol-list__item">Depression and anxiety screening</div>
+            <div class="protocol-list__item">Bipolar disorder evaluation</div>
+            <div class="protocol-list__item">Psychosis history assessment</div>
+            <div class="protocol-list__item">Current psychiatric medication review</div>
+            <div class="protocol-list__item">Suicide risk assessment</div>
+            <div class="protocol-list__item">Trauma history evaluation (general)</div>
+          </div>
+        </div>
+
+        <div class="protocol-card">
+          <div class="protocol-card__header">
+            <div class="protocol-card__icon">&#128137;</div>
+            <div>
+              <h3 class="protocol-card__title">Laboratory Testing</h3>
+              <p class="protocol-card__subtitle">Required within 30 days</p>
+            </div>
+          </div>
+          <div class="protocol-list">
+            <div class="protocol-list__item">Complete Blood Count (CBC)</div>
+            <div class="protocol-list__item">Comprehensive Metabolic Panel</div>
+            <div class="protocol-list__item">Thyroid function panel</div>
+            <div class="protocol-list__item">Liver function tests</div>
+            <div class="protocol-list__item">Electrolytes (K, Mg critical for QT)</div>
+            <div class="protocol-list__item">Lipid panel for cardiovascular risk</div>
+          </div>
+        </div>
+
+        <div class="protocol-card">
+          <div class="protocol-card__header">
+            <div class="protocol-card__icon">&#128138;</div>
+            <div>
+              <h3 class="protocol-card__title">Substance Assessment</h3>
+              <p class="protocol-card__subtitle">Critical for safety timing</p>
+            </div>
+          </div>
+          <div class="protocol-list">
+            <div class="protocol-list__item">Current substance use patterns</div>
+            <div class="protocol-list__item">Opioid use timing (critical for ibogaine)</div>
+            <div class="protocol-list__item">Benzodiazepine use evaluation</div>
+            <div class="protocol-list__item">Alcohol use assessment</div>
+            <div class="protocol-list__item">Withdrawal risk evaluation</div>
+            <div class="protocol-list__item">Medication interaction screening</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Monitoring Protocol -->
+  <section class="section section--dark">
+    <div class="container">
+      <div class="text-center mb-12">
+        <p class="eyebrow mb-4" style="color: var(--secondary-400);">During Your Stay</p>
+        <h2 class="mb-6">Continuous Medical Monitoring</h2>
+        <p class="lead" style="color: var(--neutral-300); max-width: 700px; margin: 0 auto;">
+          From arrival through departure, your safety is continuously monitored with hospital-grade equipment and trained medical staff.
+        </p>
+      </div>
+
+      <div class="grid grid--3">
+        <div class="card card--dark" style="border: 1px solid rgba(255,255,255,0.1);">
+          <h4 style="color: var(--secondary-400); margin-bottom: var(--space-4);">Pre-Ceremony</h4>
+          <ul style="display: grid; gap: var(--space-2); font-size: var(--text-sm);">
+            <li>IV access established</li>
+            <li>Baseline vitals documented</li>
+            <li>ECG connected and recorded</li>
+            <li>Emergency equipment verified</li>
+            <li>Final medical clearance</li>
+          </ul>
+        </div>
+
+        <div class="card card--dark" style="border: 1px solid rgba(255,255,255,0.1);">
+          <h4 style="color: var(--secondary-400); margin-bottom: var(--space-4);">During Ceremony</h4>
+          <ul style="display: grid; gap: var(--space-2); font-size: var(--text-sm);">
+            <li>Continuous 12-lead ECG</li>
+            <li>Vital signs every 30 minutes</li>
+            <li>QTc calculation every 2 hours</li>
+            <li>1:1 nursing ratio</li>
+            <li>Physician on-site 24/7</li>
+          </ul>
+        </div>
+
+        <div class="card card--dark" style="border: 1px solid rgba(255,255,255,0.1);">
+          <h4 style="color: var(--secondary-400); margin-bottom: var(--space-4);">Post-Ceremony</h4>
+          <ul style="display: grid; gap: var(--space-2); font-size: var(--text-sm);">
+            <li>Continued cardiac monitoring</li>
+            <li>Vital signs every 4 hours</li>
+            <li>Daily ECG until stable</li>
+            <li>Gradual activity return</li>
+            <li>Ongoing medical assessment</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="text-center mt-12">
+        <div class="stats">
+          <div class="stat">
+            <div class="stat__number">24/7</div>
+            <div class="stat__label">Medical Staff Present</div>
+          </div>
+          <div class="stat">
+            <div class="stat__number">1:1</div>
+            <div class="stat__label">Nursing Ratio</div>
+          </div>
+          <div class="stat">
+            <div class="stat__number">12-Lead</div>
+            <div class="stat__label">Continuous ECG</div>
+          </div>
+          <div class="stat">
+            <div class="stat__number">&lt;5min</div>
+            <div class="stat__label">Emergency Response</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- The Medicine -->
+  <section class="section">
+    <div class="container">
+      <div class="content-section content-section--reverse">
+        <div class="content-section__text">
+          <p class="eyebrow mb-4">The Medicine</p>
+          <h2 class="mb-6">Understanding Ibogaine</h2>
+          <p class="mb-6">
+            Ibogaine is the primary psychoactive alkaloid found in the root bark of the Iboga plant (Tabernanthe iboga), native to Central Africa. When administered with proper medical oversight, it can facilitate profound healing experiences.
+          </p>
+
+          <h4 style="font-size: var(--text-lg); margin-bottom: var(--space-4);">Mechanisms of Action</h4>
+          <div class="grid grid--2" style="gap: var(--space-3); margin-bottom: var(--space-6);">
+            <div style="font-size: var(--text-sm); padding: var(--space-3); background: var(--neutral-100); border-radius: var(--radius-md);">
+              <strong>NMDA Receptor</strong><br>
+              <span style="color: var(--neutral-600);">Modulation supporting neuroplasticity</span>
+            </div>
+            <div style="font-size: var(--text-sm); padding: var(--space-3); background: var(--neutral-100); border-radius: var(--radius-md);">
+              <strong>Serotonin System</strong><br>
+              <span style="color: var(--neutral-600);">Mood and emotional processing</span>
+            </div>
+            <div style="font-size: var(--text-sm); padding: var(--space-3); background: var(--neutral-100); border-radius: var(--radius-md);">
+              <strong>Opioid Receptors</strong><br>
+              <span style="color: var(--neutral-600);">Reset and addiction interruption</span>
+            </div>
+            <div style="font-size: var(--text-sm); padding: var(--space-3); background: var(--neutral-100); border-radius: var(--radius-md);">
+              <strong>Dopamine Pathway</strong><br>
+              <span style="color: var(--neutral-600);">Reward system recalibration</span>
+            </div>
+          </div>
+
+          <h4 style="font-size: var(--text-lg); margin-bottom: var(--space-4);">Therapeutic Applications</h4>
+          <p style="font-size: var(--text-sm); color: var(--neutral-600);">
+            Trauma resolution, addiction interruption (particularly opioids), treatment-resistant depression and anxiety, PTSD, and existential/spiritual exploration.
+          </p>
+        </div>
+
+        <div class="content-section__image">
+          <!-- PLACEHOLDER IMAGE: ibogaine-science.jpg -->
+          <div class="image-placeholder" style="height: 550px;">
+            <div class="image-placeholder__text">
+              <div class="image-placeholder__icon">&#127811;</div>
+              <div class="image-placeholder__label">[IMAGE: ibogaine-science.jpg]</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Outcomes -->
+  <section class="section section--cream">
+    <div class="container container--content">
+      <div class="text-center mb-12">
+        <p class="eyebrow mb-4">Measured Results</p>
+        <h2 class="mb-6">Outcome Measurement</h2>
+        <p class="lead" style="max-width: 700px; margin: 0 auto;">
+          We track outcomes using validated clinical instruments at multiple timepoints, measuring real change that lasts beyond the retreat experience.
+        </p>
+      </div>
+
+      <div class="grid grid--4">
+        <div class="outcome-metric card card--white">
+          <div class="outcome-metric__value">PCL-5</div>
+          <div class="outcome-metric__label">PTSD Measurement</div>
+          <div class="outcome-metric__description">20-item validated scale tracking trauma symptoms</div>
+        </div>
+        <div class="outcome-metric card card--white">
+          <div class="outcome-metric__value">PHQ-9</div>
+          <div class="outcome-metric__label">Depression Scale</div>
+          <div class="outcome-metric__description">Standard measure of depressive symptoms</div>
+        </div>
+        <div class="outcome-metric card card--white">
+          <div class="outcome-metric__value">GAD-7</div>
+          <div class="outcome-metric__label">Anxiety Assessment</div>
+          <div class="outcome-metric__description">Generalized anxiety disorder screening</div>
+        </div>
+        <div class="outcome-metric card card--white">
+          <div class="outcome-metric__value">HRV</div>
+          <div class="outcome-metric__label">Nervous System</div>
+          <div class="outcome-metric__description">Heart rate variability measuring regulation</div>
+        </div>
+      </div>
+
+      <div class="text-center mt-12">
+        <p style="font-family: var(--font-accent); font-size: var(--text-sm); color: var(--neutral-600);">
+          Assessments conducted: Pre-arrival, Day 1, Last Day, 30-Day, 90-Day, 12-Month
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Emergency Protocols -->
+  <section class="section">
+    <div class="container">
+      <div class="content-section">
+        <div class="content-section__text">
+          <p class="eyebrow mb-4">Emergency Preparedness</p>
+          <h2 class="mb-6">Comprehensive Safety Systems</h2>
+          <p class="mb-6">
+            While adverse events are rare with proper screening and monitoring, we maintain hospital-level emergency capabilities and clear protocols for any situation.
+          </p>
+
+          <div class="feature-list">
+            <div class="feature-item">
+              <div class="feature-item__icon">&#128657;</div>
+              <div class="feature-item__content">
+                <h4>On-Site Capabilities</h4>
+                <p>Cardiac defibrillator, emergency medications, oxygen therapy, IV administration, and basic airway management.</p>
+              </div>
+            </div>
+            <div class="feature-item">
+              <div class="feature-item__icon">&#127973;</div>
+              <div class="feature-item__content">
+                <h4>Hospital Partnership</h4>
+                <p>Pre-established relationships with local hospitals, clear transfer protocols, and known transport times.</p>
+              </div>
+            </div>
+            <div class="feature-item">
+              <div class="feature-item__icon">&#128106;</div>
+              <div class="feature-item__content">
+                <h4>Response Team</h4>
+                <p>Physician on-site 24/7 during ceremonies, 1:1 nursing, clear chain of command, and regularly practiced scenarios.</p>
+              </div>
+            </div>
+            <div class="feature-item">
+              <div class="feature-item__icon">&#128220;</div>
+              <div class="feature-item__content">
+                <h4>Documentation</h4>
+                <p>Complete medical records, HIPAA-compliant systems, audit logging, and comprehensive incident reporting.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="content-section__image">
+          <!-- PLACEHOLDER IMAGE: medical-equipment.jpg -->
+          <div class="image-placeholder" style="height: 500px;">
+            <div class="image-placeholder__text">
+              <div class="image-placeholder__icon">&#9877;</div>
+              <div class="image-placeholder__label">[IMAGE: medical-equipment.jpg]</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contraindications -->
+  <section class="section section--dark">
+    <div class="container container--content">
+      <div class="text-center mb-12">
+        <p class="eyebrow mb-4" style="color: var(--secondary-400);">Safety First</p>
+        <h2 class="mb-6">Who Cannot Participate</h2>
+        <p class="lead" style="color: var(--neutral-300); max-width: 700px; margin: 0 auto;">
+          Our screening exists to protect you. Some conditions are absolute contraindications for ibogaine treatment. Others require case-by-case evaluation.
+        </p>
+      </div>
+
+      <div class="grid grid--2">
+        <div class="card" style="background: rgba(239, 68, 68, 0.1); border: 1px solid rgba(239, 68, 68, 0.3);">
+          <h4 style="color: #ef4444; margin-bottom: var(--space-4);">Absolute Contraindications</h4>
+          <ul style="display: grid; gap: var(--space-2); font-size: var(--text-sm); color: var(--neutral-200);">
+            <li>Long QT syndrome or QT-prolonging medications</li>
+            <li>Recent myocardial infarction</li>
+            <li>Uncontrolled arrhythmias or heart block</li>
+            <li>Active psychosis or schizophrenia spectrum</li>
+            <li>Severe bipolar disorder (manic phase)</li>
+            <li>Pregnancy or breastfeeding</li>
+            <li>Severe hepatic impairment</li>
+            <li>Cerebellar disorders or seizure disorder</li>
+          </ul>
+        </div>
+
+        <div class="card" style="background: rgba(245, 158, 11, 0.1); border: 1px solid rgba(245, 158, 11, 0.3);">
+          <h4 style="color: #f59e0b; margin-bottom: var(--space-4);">Case-by-Case Evaluation</h4>
+          <ul style="display: grid; gap: var(--space-2); font-size: var(--text-sm); color: var(--neutral-200);">
+            <li>Age over 65 (additional cardiac workup)</li>
+            <li>Controlled hypertension (medication review)</li>
+            <li>Mild hepatic impairment (dose adjustment)</li>
+            <li>History of seizures (neurology clearance)</li>
+            <li>Recent SSRI use (proper washout period)</li>
+            <li>Complex psychiatric history</li>
+            <li>Other significant medical conditions</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="cta-section">
+    <div class="cta-section__bg"></div>
+    <div class="cta-section__pattern"></div>
+    <div class="container">
+      <div class="cta-section__content">
+        <h2 class="cta-section__title">Questions About Your Eligibility?</h2>
+        <p class="cta-section__text">
+          Our medical team can help determine if our programs are appropriate for your situation. Begin with a confidential consultation.
+        </p>
+        <div style="display: flex; gap: var(--space-4); justify-content: center; flex-wrap: wrap;">
+          <a href="apply.html" class="btn btn--gold btn--lg">Begin Your Application</a>
+          <a href="experience.html" class="btn btn--white btn--lg">Explore the Experience</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <div class="footer__logo">Transformational Epicenter</div>
+          <p class="footer__tagline">
+            "This is not about escaping life. It's about helping people return to life whole, present, sovereign, and awake."
+          </p>
+        </div>
+
+        <div>
+          <h4 class="footer__heading">Explore</h4>
+          <div class="footer__links">
+            <a href="experience.html" class="footer__link">The Experience</a>
+            <a href="programs.html" class="footer__link">Programs</a>
+            <a href="science.html" class="footer__link">The Science</a>
+            <a href="location.html" class="footer__link">The Location</a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer__heading">Learn More</h4>
+          <div class="footer__links">
+            <a href="about.html" class="footer__link">About Us</a>
+            <a href="about.html#team" class="footer__link">Our Team</a>
+            <a href="apply.html#faq" class="footer__link">FAQs</a>
+            <a href="apply.html" class="footer__link">Apply Now</a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer__heading">Contact</h4>
+          <div class="footer__links">
+            <a href="mailto:hello@transformational-epicenter.com" class="footer__link">hello@transformational-epicenter.com</a>
+            <a href="apply.html" class="footer__link">Schedule a Call</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <p class="footer__copyright">
+          &copy; 2024 Transformational Epicenter. All rights reserved.
+        </p>
+        <div class="footer__social">
+          <a href="#" aria-label="Instagram">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+              <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+            </svg>
+          </a>
+          <a href="#" aria-label="LinkedIn">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+              <rect x="2" y="9" width="4" height="12"/>
+              <circle cx="4" cy="4" r="2"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

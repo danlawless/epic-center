@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Begin your transformational journey at Transformational Epicenter. Apply for our healing programs with a confidential consultation.">
+
+  <title>Apply | Transformational Epicenter</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@300;400;500;600&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <style>
+    .application-form {
+      background: white;
+      border-radius: var(--radius-xl);
+      padding: var(--space-10);
+      box-shadow: var(--shadow-lg);
+    }
+
+    .form-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: var(--space-6);
+    }
+
+    @media (max-width: 640px) {
+      .form-row {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .form-checkbox {
+      display: flex;
+      align-items: flex-start;
+      gap: var(--space-3);
+    }
+
+    .form-checkbox input {
+      margin-top: 4px;
+      width: 18px;
+      height: 18px;
+      accent-color: var(--primary-800);
+    }
+
+    .form-checkbox label {
+      font-size: var(--text-sm);
+      color: var(--neutral-600);
+    }
+
+    .process-step {
+      display: flex;
+      gap: var(--space-5);
+      padding: var(--space-6);
+      background: var(--neutral-100);
+      border-radius: var(--radius-lg);
+    }
+
+    .process-step__number {
+      width: 48px;
+      height: 48px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: var(--primary-800);
+      color: var(--neutral-50);
+      border-radius: 50%;
+      font-family: var(--font-heading);
+      font-size: var(--text-xl);
+      flex-shrink: 0;
+    }
+
+    .process-step__content h4 {
+      margin-bottom: var(--space-2);
+    }
+
+    .process-step__content p {
+      font-size: var(--text-sm);
+      color: var(--neutral-600);
+      margin-bottom: 0;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav" role="navigation" aria-label="Main navigation">
+    <div class="container">
+      <div class="nav__inner">
+        <a href="index.html" class="nav__logo">
+          Transformational<span>Epicenter</span>
+        </a>
+
+        <div class="nav__links">
+          <a href="experience.html" class="nav__link">The Experience</a>
+          <a href="programs.html" class="nav__link">Programs</a>
+          <a href="science.html" class="nav__link">The Science</a>
+          <a href="location.html" class="nav__link">The Location</a>
+          <a href="about.html" class="nav__link">About</a>
+          <a href="apply.html" class="btn btn--gold nav__cta">Begin Your Journey</a>
+        </div>
+
+        <button class="nav__toggle" aria-label="Toggle menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <header class="page-header">
+    <div class="page-header__bg">
+      <!-- PLACEHOLDER IMAGE: apply-hero.jpg -->
+      <div class="image-placeholder" style="width: 100%; height: 100%; min-height: 60vh; border-radius: 0;">
+        <div class="image-placeholder__text">
+          <div class="image-placeholder__icon">&#128220;</div>
+          <div class="image-placeholder__label">[IMAGE: apply-hero.jpg]</div>
+        </div>
+      </div>
+      <div class="page-header__overlay"></div>
+    </div>
+    <div class="page-header__content">
+      <p class="eyebrow mb-4" style="color: var(--secondary-400);">Begin Your Journey</p>
+      <h1 class="page-header__title">Apply Now</h1>
+      <p class="page-header__subtitle">
+        Take the first step toward returning to life whole, present, and awake. Our admissions team will guide you through every step with care and confidentiality.
+      </p>
+    </div>
+  </header>
+
+  <!-- Application Process -->
+  <section class="section">
+    <div class="container container--content">
+      <div class="text-center mb-12">
+        <h2 class="mb-6">The Application Process</h2>
+        <p class="lead" style="max-width: 700px; margin: 0 auto;">
+          We've designed a thoughtful process to ensure the right fit and prepare you for transformation. Every step is handled with discretion and care.
+        </p>
+      </div>
+
+      <div class="grid grid--2" style="gap: var(--space-6);">
+        <div class="process-step">
+          <span class="process-step__number">1</span>
+          <div class="process-step__content">
+            <h4>Initial Inquiry</h4>
+            <p>Submit your interest through our form. Share basic information about yourself and what brings you to this work.</p>
+          </div>
+        </div>
+
+        <div class="process-step">
+          <span class="process-step__number">2</span>
+          <div class="process-step__content">
+            <h4>Discovery Call</h4>
+            <p>A confidential conversation with our admissions team to discuss your goals, answer questions, and assess fit.</p>
+          </div>
+        </div>
+
+        <div class="process-step">
+          <span class="process-step__number">3</span>
+          <div class="process-step__content">
+            <h4>Medical Review</h4>
+            <p>Complete medical intake forms and required screenings. Our medical team reviews for safety clearance.</p>
+          </div>
+        </div>
+
+        <div class="process-step">
+          <span class="process-step__number">4</span>
+          <div class="process-step__content">
+            <h4>Program Selection</h4>
+            <p>Together, we determine the right program for your needs. Receive your offer and secure your dates.</p>
+          </div>
+        </div>
+
+        <div class="process-step">
+          <span class="process-step__number">5</span>
+          <div class="process-step__content">
+            <h4>Pre-Care Begins</h4>
+            <p>4-8 weeks before arrival, begin preparation with our digital platform, practices, and facilitator connection.</p>
+          </div>
+        </div>
+
+        <div class="process-step">
+          <span class="process-step__number">6</span>
+          <div class="process-step__content">
+            <h4>Your Journey Begins</h4>
+            <p>Arrive at the sanctuary ready for transformation. Your healing journey has already begun.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Application Form -->
+  <section class="section section--cream">
+    <div class="container">
+      <div style="max-width: 800px; margin: 0 auto;">
+        <div class="text-center mb-12">
+          <p class="eyebrow mb-4">Step One</p>
+          <h2 class="mb-6">Begin Your Application</h2>
+          <p>Complete this initial inquiry form. All information is kept strictly confidential.</p>
+        </div>
+
+        <form class="application-form" action="#" method="POST">
+          <!-- Personal Information -->
+          <h4 style="margin-bottom: var(--space-6); color: var(--primary-800);">Personal Information</h4>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label" for="firstName">First Name *</label>
+              <input type="text" id="firstName" name="firstName" class="form-input" required>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="lastName">Last Name *</label>
+              <input type="text" id="lastName" name="lastName" class="form-input" required>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label" for="email">Email Address *</label>
+              <input type="email" id="email" name="email" class="form-input" required>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="phone">Phone Number *</label>
+              <input type="tel" id="phone" name="phone" class="form-input" required>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label" for="country">Country of Residence *</label>
+              <input type="text" id="country" name="country" class="form-input" required>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="age">Age *</label>
+              <input type="number" id="age" name="age" class="form-input" min="21" max="120" required>
+            </div>
+          </div>
+
+          <!-- Program Interest -->
+          <h4 style="margin-top: var(--space-10); margin-bottom: var(--space-6); color: var(--primary-800);">Program Interest</h4>
+
+          <div class="form-group">
+            <label class="form-label" for="program">Program of Interest *</label>
+            <select id="program" name="program" class="form-select" required>
+              <option value="">Select a program...</option>
+              <option value="7-day">7-Day Reset</option>
+              <option value="14-day">14-Day Interruption</option>
+              <option value="21-day">21-Day Recalibration</option>
+              <option value="28-day">28-Day Transformation</option>
+              <option value="unsure">Not sure yet - need guidance</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="timeframe">Preferred Timeframe</label>
+            <select id="timeframe" name="timeframe" class="form-select">
+              <option value="">Select a timeframe...</option>
+              <option value="1-month">Within 1 month</option>
+              <option value="1-3-months">1-3 months</option>
+              <option value="3-6-months">3-6 months</option>
+              <option value="6-plus-months">6+ months</option>
+              <option value="flexible">Flexible</option>
+            </select>
+          </div>
+
+          <!-- Your Journey -->
+          <h4 style="margin-top: var(--space-10); margin-bottom: var(--space-6); color: var(--primary-800);">Your Journey</h4>
+
+          <div class="form-group">
+            <label class="form-label" for="goals">What brings you to this work? What are you hoping to address or transform? *</label>
+            <textarea id="goals" name="goals" class="form-textarea" required placeholder="Share as much or as little as you're comfortable with. This helps us understand how to best support you."></textarea>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="experience">Have you had previous experience with plant medicine or psychedelics?</label>
+            <select id="experience" name="experience" class="form-select">
+              <option value="">Select...</option>
+              <option value="none">No previous experience</option>
+              <option value="some">Some experience</option>
+              <option value="experienced">Experienced</option>
+              <option value="prefer-not">Prefer not to say</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="hear">How did you hear about us?</label>
+            <select id="hear" name="hear" class="form-select">
+              <option value="">Select...</option>
+              <option value="referral">Personal referral</option>
+              <option value="search">Search engine</option>
+              <option value="social">Social media</option>
+              <option value="podcast">Podcast</option>
+              <option value="article">Article or blog</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+
+          <!-- Consent -->
+          <div style="margin-top: var(--space-10); padding-top: var(--space-8); border-top: 1px solid var(--neutral-200);">
+            <div class="form-checkbox mb-4">
+              <input type="checkbox" id="consent" name="consent" required>
+              <label for="consent">I understand that this is an initial inquiry, and I consent to Transformational Epicenter contacting me to discuss my application. All information will be kept confidential. *</label>
+            </div>
+
+            <div class="form-checkbox mb-8">
+              <input type="checkbox" id="medical" name="medical" required>
+              <label for="medical">I understand that medical screening is required for all guests, and that certain medical conditions may prevent participation. I agree to provide accurate medical information. *</label>
+            </div>
+          </div>
+
+          <button type="submit" class="btn btn--gold btn--lg" style="width: 100%;">Submit Application</button>
+
+          <p style="text-align: center; margin-top: var(--space-6); font-size: var(--text-sm); color: var(--neutral-500);">
+            After submitting, our admissions team will contact you within 48 hours to schedule your discovery call.
+          </p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section class="section" id="faq">
+    <div class="container container--content">
+      <div class="text-center mb-12">
+        <p class="eyebrow mb-4">Common Questions</p>
+        <h2 class="mb-6">Frequently Asked Questions</h2>
+      </div>
+
+      <div class="accordion">
+        <div class="accordion__item">
+          <button class="accordion__header">
+            Is this treatment legal?
+            <span class="accordion__icon"></span>
+          </button>
+          <div class="accordion__content">
+            <div class="accordion__content__inner">
+              <p>Our facility operates in Mexico where ibogaine treatment is legal and not a controlled substance. We maintain full compliance with all local medical regulations and licensing requirements. Our medical team adheres to rigorous safety protocols that often exceed international standards.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion__item">
+          <button class="accordion__header">
+            Who is this treatment for?
+            <span class="accordion__icon"></span>
+          </button>
+          <div class="accordion__content">
+            <div class="accordion__content__inner">
+              <p>Our programs are designed for adults who are ready for deep transformation. Common reasons guests come to us include: trauma processing, addiction recovery (particularly opioids), treatment-resistant depression and anxiety, PTSD, existential exploration, and major life transitions. Medical screening determines eligibility - not all applicants are accepted due to safety considerations.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion__item">
+          <button class="accordion__header">
+            What are the medical requirements?
+            <span class="accordion__icon"></span>
+          </button>
+          <div class="accordion__content">
+            <div class="accordion__content__inner">
+              <p>All guests undergo comprehensive medical screening including cardiovascular assessment (ECG required), laboratory testing, psychiatric evaluation, and medication review. Certain conditions are absolute contraindications - our <a href="science.html" style="color: var(--secondary-500);">Science page</a> details these. Safety is our sacred responsibility, and we cannot accept guests who present significant medical risk.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion__item">
+          <button class="accordion__header">
+            How long should I plan to be away?
+            <span class="accordion__icon"></span>
+          </button>
+          <div class="accordion__content">
+            <div class="accordion__content__inner">
+              <p>Programs range from 7 to 28 days. We recommend adding 1-2 days on either end for travel. Most importantly, plan for a gentle re-entry period when you return home - avoid scheduling major obligations for at least a week after your program ends. Your nervous system will be in an open, sensitive state that benefits from continued rest.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion__item">
+          <button class="accordion__header">
+            What is included in the investment?
+            <span class="accordion__icon"></span>
+          </button>
+          <div class="accordion__content">
+            <div class="accordion__content__inner">
+              <p>All programs are fully inclusive: private luxury accommodation, all meals, daily massage, full bio-optimization access, ceremony/ceremonies, integration sessions, 24/7 medical oversight, and post-care program (3-12 months depending on program). Not included: transportation to/from the facility, pre-arrival labs and testing, and optional extended longevity programs.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion__item">
+          <button class="accordion__header">
+            Is financing available?
+            <span class="accordion__icon"></span>
+          </button>
+          <div class="accordion__content">
+            <div class="accordion__content__inner">
+              <p>We understand this is a significant investment in your wellbeing. Payment plans are available for qualified applicants. We also offer a limited number of scholarship positions for those who demonstrate genuine need and readiness for this work. Discuss options with your admissions advisor during your discovery call.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion__item">
+          <button class="accordion__header">
+            What happens after the retreat?
+            <span class="accordion__icon"></span>
+          </button>
+          <div class="accordion__content">
+            <div class="accordion__content__inner">
+              <p>Integration is where transformation becomes lasting change. All programs include a structured post-care period (3-12 months) with coaching sessions, community access, practice guidance, and check-ins at key intervals. You'll also have lifetime access to our digital platform and alumni community. Many guests return for maintenance visits annually.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion__item">
+          <button class="accordion__header">
+            How do I know if I'm ready?
+            <span class="accordion__icon"></span>
+          </button>
+          <div class="accordion__content">
+            <div class="accordion__content__inner">
+              <p>Signs of readiness include: a genuine desire for deep change (not just relief), willingness to do the inner work required, ability to take time for this process, openness to new perspectives, and some prior engagement with personal growth work. During your discovery call, we'll explore your readiness together and be honest about whether this is the right time.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Options -->
+  <section class="section section--cream">
+    <div class="container container--content">
+      <div class="text-center mb-12">
+        <p class="eyebrow mb-4">Other Ways to Connect</p>
+        <h2 class="mb-6">Questions Before Applying?</h2>
+      </div>
+
+      <div class="grid grid--3">
+        <div class="card card--white text-center">
+          <div style="font-size: var(--text-3xl); margin-bottom: var(--space-4);">&#128231;</div>
+          <h4 style="margin-bottom: var(--space-3);">Email Us</h4>
+          <p style="font-size: var(--text-sm); color: var(--neutral-600); margin-bottom: var(--space-4);">For general inquiries or if you prefer written communication.</p>
+          <a href="mailto:hello@transformational-epicenter.com" class="btn btn--secondary btn--sm">hello@transformational-epicenter.com</a>
+        </div>
+
+        <div class="card card--white text-center">
+          <div style="font-size: var(--text-3xl); margin-bottom: var(--space-4);">&#128222;</div>
+          <h4 style="margin-bottom: var(--space-3);">Schedule a Call</h4>
+          <p style="font-size: var(--text-sm); color: var(--neutral-600); margin-bottom: var(--space-4);">Speak directly with our admissions team about your questions.</p>
+          <a href="#" class="btn btn--secondary btn--sm">Book a Discovery Call</a>
+        </div>
+
+        <div class="card card--white text-center">
+          <div style="font-size: var(--text-3xl); margin-bottom: var(--space-4);">&#128218;</div>
+          <h4 style="margin-bottom: var(--space-3);">Learn More</h4>
+          <p style="font-size: var(--text-sm); color: var(--neutral-600); margin-bottom: var(--space-4);">Explore our approach, programs, and methodology in depth.</p>
+          <a href="experience.html" class="btn btn--secondary btn--sm">Explore the Experience</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <div class="footer__logo">Transformational Epicenter</div>
+          <p class="footer__tagline">
+            "This is not about escaping life. It's about helping people return to life whole, present, sovereign, and awake."
+          </p>
+        </div>
+
+        <div>
+          <h4 class="footer__heading">Explore</h4>
+          <div class="footer__links">
+            <a href="experience.html" class="footer__link">The Experience</a>
+            <a href="programs.html" class="footer__link">Programs</a>
+            <a href="science.html" class="footer__link">The Science</a>
+            <a href="location.html" class="footer__link">The Location</a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer__heading">Learn More</h4>
+          <div class="footer__links">
+            <a href="about.html" class="footer__link">About Us</a>
+            <a href="about.html#team" class="footer__link">Our Team</a>
+            <a href="apply.html#faq" class="footer__link">FAQs</a>
+            <a href="apply.html" class="footer__link">Apply Now</a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer__heading">Contact</h4>
+          <div class="footer__links">
+            <a href="mailto:hello@transformational-epicenter.com" class="footer__link">hello@transformational-epicenter.com</a>
+            <a href="apply.html" class="footer__link">Schedule a Call</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <p class="footer__copyright">
+          &copy; 2024 Transformational Epicenter. All rights reserved.
+        </p>
+        <div class="footer__social">
+          <a href="#" aria-label="Instagram">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+              <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+            </svg>
+          </a>
+          <a href="#" aria-label="LinkedIn">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+              <rect x="2" y="9" width="4" height="12"/>
+              <circle cx="4" cy="4" r="2"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

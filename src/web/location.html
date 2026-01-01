@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Discover the Transformational Epicenter sanctuary in Mexico - biophilic design, conscious architecture, and therapeutic environments designed to support your healing journey.">
+
+  <title>The Location | Transformational Epicenter</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@300;400;500;600&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <style>
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      grid-template-rows: repeat(2, 250px);
+      gap: var(--space-4);
+    }
+
+    .gallery-item {
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+    }
+
+    .gallery-item--large {
+      grid-column: span 2;
+      grid-row: span 2;
+    }
+
+    .gallery-item--wide {
+      grid-column: span 2;
+    }
+
+    @media (max-width: 968px) {
+      .gallery-grid {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+      }
+
+      .gallery-item--large {
+        grid-column: span 2;
+      }
+
+      .gallery-item--wide {
+        grid-column: span 1;
+      }
+    }
+
+    .amenity-card {
+      display: flex;
+      align-items: flex-start;
+      gap: var(--space-5);
+      padding: var(--space-6);
+      background: white;
+      border-radius: var(--radius-lg);
+      box-shadow: var(--shadow-sm);
+    }
+
+    .amenity-card__icon {
+      width: 48px;
+      height: 48px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: var(--secondary-100);
+      border-radius: var(--radius-lg);
+      flex-shrink: 0;
+      font-size: var(--text-xl);
+    }
+
+    .amenity-card__title {
+      font-size: var(--text-lg);
+      margin-bottom: var(--space-2);
+    }
+
+    .amenity-card__text {
+      font-size: var(--text-sm);
+      color: var(--neutral-600);
+      margin-bottom: 0;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav" role="navigation" aria-label="Main navigation">
+    <div class="container">
+      <div class="nav__inner">
+        <a href="index.html" class="nav__logo">
+          Transformational<span>Epicenter</span>
+        </a>
+
+        <div class="nav__links">
+          <a href="experience.html" class="nav__link">The Experience</a>
+          <a href="programs.html" class="nav__link">Programs</a>
+          <a href="science.html" class="nav__link">The Science</a>
+          <a href="location.html" class="nav__link nav__link--active">The Location</a>
+          <a href="about.html" class="nav__link">About</a>
+          <a href="apply.html" class="btn btn--gold nav__cta">Begin Your Journey</a>
+        </div>
+
+        <button class="nav__toggle" aria-label="Toggle menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <header class="page-header">
+    <div class="page-header__bg">
+      <!-- PLACEHOLDER IMAGE: location-hero.jpg -->
+      <div class="image-placeholder" style="width: 100%; height: 100%; min-height: 60vh; border-radius: 0;">
+        <div class="image-placeholder__text">
+          <div class="image-placeholder__icon">&#127965;</div>
+          <div class="image-placeholder__label">[IMAGE: location-hero.jpg]</div>
+        </div>
+      </div>
+      <div class="page-header__overlay"></div>
+    </div>
+    <div class="page-header__content">
+      <p class="eyebrow mb-4" style="color: var(--secondary-400);">The Sanctuary</p>
+      <h1 class="page-header__title">Where Healing Takes Root</h1>
+      <p class="page-header__subtitle">
+        Nestled within nature in Mexico, our sanctuary offers a therapeutic environment where every design choice serves the nervous system and supports transformation.
+      </p>
+    </div>
+  </header>
+
+  <!-- Design Philosophy -->
+  <section class="section">
+    <div class="container container--text text-center">
+      <h2 class="mb-6">A Therapeutic Environment</h2>
+      <p class="lead mb-6">
+        The Transformational Epicenter is not merely a building - it is a therapeutic environment. Every design choice serves the nervous system's need for safety, beauty, and coherence.
+      </p>
+      <p class="quote">
+        "Spaces have the power to calm or agitate, to inspire or deplete. We've created a sanctuary that does the healing work alongside you."
+      </p>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section class="section section--cream">
+    <div class="container">
+      <div class="text-center mb-12">
+        <p class="eyebrow mb-4">Visual Journey</p>
+        <h2 class="mb-6">Experience the Space</h2>
+      </div>
+
+      <div class="gallery-grid">
+        <div class="gallery-item gallery-item--large">
+          <!-- PLACEHOLDER IMAGE: gallery-main.jpg -->
+          <div class="image-placeholder" style="height: 100%;">
+            <div class="image-placeholder__text">
+              <div class="image-placeholder__icon">&#127969;</div>
+              <div class="image-placeholder__label">[IMAGE: gallery-main.jpg]</div>
+            </div>
+          </div>
+        </div>
+        <div class="gallery-item gallery-item--wide">
+          <!-- PLACEHOLDER IMAGE: gallery-garden.jpg -->
+          <div class="image-placeholder" style="height: 100%;">
+            <div class="image-placeholder__text">
+              <div class="image-placeholder__icon">&#127807;</div>
+              <div class="image-placeholder__label">[IMAGE: gallery-garden.jpg]</div>
+            </div>
+          </div>
+        </div>
+        <div class="gallery-item gallery-item--wide">
+          <!-- PLACEHOLDER IMAGE: gallery-pool.jpg -->
+          <div class="image-placeholder" style="height: 100%;">
+            <div class="image-placeholder__text">
+              <div class="image-placeholder__icon">&#128166;</div>
+              <div class="image-placeholder__label">[IMAGE: gallery-pool.jpg]</div>
+            </div>
+          </div>
+        </div>
+        <div class="gallery-item gallery-item--wide">
+          <!-- PLACEHOLDER IMAGE: gallery-room.jpg -->
+          <div class="image-placeholder" style="height: 100%;">
+            <div class="image-placeholder__text">
+              <div class="image-placeholder__icon">&#128716;</div>
+              <div class="image-placeholder__label">[IMAGE: gallery-room.jpg]</div>
+            </div>
+          </div>
+        </div>
+        <div class="gallery-item gallery-item--wide">
+          <!-- PLACEHOLDER IMAGE: gallery-dining.jpg -->
+          <div class="image-placeholder" style="height: 100%;">
+            <div class="image-placeholder__text">
+              <div class="image-placeholder__icon">&#127860;</div>
+              <div class="image-placeholder__label">[IMAGE: gallery-dining.jpg]</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Design Principles -->
+  <section class="section">
+    <div class="container">
+      <div class="content-section">
+        <div class="content-section__text">
+          <p class="eyebrow mb-4">Design Philosophy</p>
+          <h2 class="mb-6">Conscious Architecture</h2>
+          <p class="mb-6">
+            Every element of our space has been intentionally designed to support nervous system regulation, facilitate healing, and create the safety required for deep transformation.
+          </p>
+
+          <div class="feature-list">
+            <div class="feature-item">
+              <div class="feature-item__icon">&#127793;</div>
+              <div class="feature-item__content">
+                <h4>Biophilic Design</h4>
+                <p>Nature integration throughout - natural light, living plants, water features, and direct connection to the outdoors.</p>
+              </div>
+            </div>
+            <div class="feature-item">
+              <div class="feature-item__icon">&#127925;</div>
+              <div class="feature-item__content">
+                <h4>Acoustic Sanctuary</h4>
+                <p>Sound-conscious design with natural sound barriers, quality insulation, and spaces for both connection and solitude.</p>
+              </div>
+            </div>
+            <div class="feature-item">
+              <div class="feature-item__icon">&#9728;</div>
+              <div class="feature-item__content">
+                <h4>Light as Medicine</h4>
+                <p>Circadian-aligned lighting throughout, with abundant natural light and warm, therapeutic color temperatures.</p>
+              </div>
+            </div>
+            <div class="feature-item">
+              <div class="feature-item__icon">&#127968;</div>
+              <div class="feature-item__content">
+                <h4>Conscious Materials</h4>
+                <p>Non-toxic, sustainable, beautiful materials - natural wood, stone, organic textiles, and artisan craftsmanship.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="content-section__image">
+          <!-- PLACEHOLDER IMAGE: design-interior.jpg -->
+          <div class="image-placeholder" style="height: 550px;">
+            <div class="image-placeholder__text">
+              <div class="image-placeholder__icon">&#127969;</div>
+              <div class="image-placeholder__label">[IMAGE: design-interior.jpg]</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Guest Rooms -->
+  <section class="section section--cream">
+    <div class="container">
+      <div class="content-section content-section--reverse">
+        <div class="content-section__text">
+          <p class="eyebrow mb-4">Private Sanctuaries</p>
+          <h2 class="mb-6">Your Personal Retreat Space</h2>
+          <p class="mb-6">
+            Each guest room is a private sanctuary designed for deep rest, reflection, and recovery. Low-density buildings ensure privacy, while thoughtful design supports every aspect of your healing journey.
+          </p>
+
+          <div class="grid grid--2" style="gap: var(--space-4);">
+            <div style="font-size: var(--text-sm); padding: var(--space-4); background: white; border-radius: var(--radius-md);">
+              <strong style="color: var(--primary-800);">Organic Bedding</strong><br>
+              <span style="color: var(--neutral-600);">Premium linens for restorative sleep</span>
+            </div>
+            <div style="font-size: var(--text-sm); padding: var(--space-4); background: white; border-radius: var(--radius-md);">
+              <strong style="color: var(--primary-800);">Private Bathroom</strong><br>
+              <span style="color: var(--neutral-600);">En-suite facilities with natural products</span>
+            </div>
+            <div style="font-size: var(--text-sm); padding: var(--space-4); background: white; border-radius: var(--radius-md);">
+              <strong style="color: var(--primary-800);">Climate Control</strong><br>
+              <span style="color: var(--neutral-600);">Individual temperature management</span>
+            </div>
+            <div style="font-size: var(--text-sm); padding: var(--space-4); background: white; border-radius: var(--radius-md);">
+              <strong style="color: var(--primary-800);">Natural Light</strong><br>
+              <span style="color: var(--neutral-600);">Blackout options for rest periods</span>
+            </div>
+            <div style="font-size: var(--text-sm); padding: var(--space-4); background: white; border-radius: var(--radius-md);">
+              <strong style="color: var(--primary-800);">Outdoor Access</strong><br>
+              <span style="color: var(--neutral-600);">Private terrace or garden view</span>
+            </div>
+            <div style="font-size: var(--text-sm); padding: var(--space-4); background: white; border-radius: var(--radius-md);">
+              <strong style="color: var(--primary-800);">Minimalist Design</strong><br>
+              <span style="color: var(--neutral-600);">Calm, uncluttered spaces for clarity</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="content-section__image">
+          <!-- PLACEHOLDER IMAGE: guest-room-luxury.jpg -->
+          <div class="image-placeholder" style="height: 500px;">
+            <div class="image-placeholder__text">
+              <div class="image-placeholder__icon">&#128716;</div>
+              <div class="image-placeholder__label">[IMAGE: guest-room-luxury.jpg]</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Facilities -->
+  <section class="section">
+    <div class="container container--content">
+      <div class="text-center mb-12">
+        <p class="eyebrow mb-4">Facilities</p>
+        <h2 class="mb-6">Healing Spaces</h2>
+        <p class="lead" style="max-width: 700px; margin: 0 auto;">
+          Our campus includes dedicated spaces for every aspect of your transformation - from medical care to ceremony, bio-optimization to community gathering.
+        </p>
+      </div>
+
+      <div class="grid grid--2">
+        <div class="amenity-card">
+          <div class="amenity-card__icon">&#127973;</div>
+          <div>
+            <h4 class="amenity-card__title">Medical Center</h4>
+            <p class="amenity-card__text">Fully equipped medical facility with monitoring stations, emergency equipment, and private consultation rooms.</p>
+          </div>
+        </div>
+
+        <div class="amenity-card">
+          <div class="amenity-card__icon">&#127811;</div>
+          <div>
+            <h4 class="amenity-card__title">Ceremony Space</h4>
+            <p class="amenity-card__text">Sacred container designed for deep work - private rooms with 24/7 support access and peaceful ambiance.</p>
+          </div>
+        </div>
+
+        <div class="amenity-card">
+          <div class="amenity-card__icon">&#10052;</div>
+          <div>
+            <h4 class="amenity-card__title">Bio-Optimization Center</h4>
+            <p class="amenity-card__text">State-of-the-art facility with sauna, cold plunge, red light therapy, hyperbaric chamber, and IV therapy.</p>
+          </div>
+        </div>
+
+        <div class="amenity-card">
+          <div class="amenity-card__icon">&#127860;</div>
+          <div>
+            <h4 class="amenity-card__title">Dining Pavilion</h4>
+            <p class="amenity-card__text">Open-air dining space with views of nature, designed for nourishing meals and community connection.</p>
+          </div>
+        </div>
+
+        <div class="amenity-card">
+          <div class="amenity-card__icon">&#129488;</div>
+          <div>
+            <h4 class="amenity-card__title">Movement Studio</h4>
+            <p class="amenity-card__text">Dedicated space for yoga, breathwork, somatic practices, and gentle movement throughout your stay.</p>
+          </div>
+        </div>
+
+        <div class="amenity-card">
+          <div class="amenity-card__icon">&#127807;</div>
+          <div>
+            <h4 class="amenity-card__title">Gardens & Trails</h4>
+            <p class="amenity-card__text">Landscaped grounds with walking paths, meditation spots, and direct connection to nature.</p>
+          </div>
+        </div>
+
+        <div class="amenity-card">
+          <div class="amenity-card__icon">&#128166;</div>
+          <div>
+            <h4 class="amenity-card__title">Pool & Water Features</h4>
+            <p class="amenity-card__text">Therapeutic pool for gentle movement and relaxation, surrounded by natural landscaping.</p>
+          </div>
+        </div>
+
+        <div class="amenity-card">
+          <div class="amenity-card__icon">&#128172;</div>
+          <div>
+            <h4 class="amenity-card__title">Integration Rooms</h4>
+            <p class="amenity-card__text">Private and group spaces designed for processing, reflection, and one-on-one sessions.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Location Info -->
+  <section class="section section--dark">
+    <div class="container">
+      <div class="text-center mb-12">
+        <p class="eyebrow mb-4" style="color: var(--secondary-400);">Mexico</p>
+        <h2 class="mb-6">Our First Location</h2>
+        <p class="lead" style="color: var(--neutral-300); max-width: 700px; margin: 0 auto;">
+          Our inaugural sanctuary is located in Mexico, chosen for its natural beauty, climate conducive to healing, and accessibility for guests from around the world.
+        </p>
+      </div>
+
+      <div class="grid grid--4 text-center">
+        <div class="card card--dark" style="border: 1px solid rgba(255,255,255,0.1);">
+          <div style="font-size: var(--text-4xl); margin-bottom: var(--space-2);">&#127758;</div>
+          <h4 style="color: var(--secondary-400); margin-bottom: var(--space-2);">0.5-1 Hectare</h4>
+          <p style="font-size: var(--text-sm); color: var(--neutral-400); margin-bottom: 0;">Private grounds</p>
+        </div>
+        <div class="card card--dark" style="border: 1px solid rgba(255,255,255,0.1);">
+          <div style="font-size: var(--text-4xl); margin-bottom: var(--space-2);">&#127969;</div>
+          <h4 style="color: var(--secondary-400); margin-bottom: var(--space-2);">20-30 Rooms</h4>
+          <p style="font-size: var(--text-sm); color: var(--neutral-400); margin-bottom: 0;">Private guest casitas</p>
+        </div>
+        <div class="card card--dark" style="border: 1px solid rgba(255,255,255,0.1);">
+          <div style="font-size: var(--text-4xl); margin-bottom: var(--space-2);">&#127793;</div>
+          <h4 style="color: var(--secondary-400); margin-bottom: var(--space-2);">Low Density</h4>
+          <p style="font-size: var(--text-sm); color: var(--neutral-400); margin-bottom: 0;">Nature-integrated design</p>
+        </div>
+        <div class="card card--dark" style="border: 1px solid rgba(255,255,255,0.1);">
+          <div style="font-size: var(--text-4xl); margin-bottom: var(--space-2);">&#9992;</div>
+          <h4 style="color: var(--secondary-400); margin-bottom: var(--space-2);">Easy Access</h4>
+          <p style="font-size: var(--text-sm); color: var(--neutral-400); margin-bottom: 0;">International arrivals</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Future Vision -->
+  <section class="section">
+    <div class="container container--text text-center">
+      <p class="eyebrow mb-4">The Vision</p>
+      <h2 class="mb-6">30+ Epicenters Globally</h2>
+      <p class="lead mb-6">
+        Our Mexico sanctuary is just the beginning. We envision a global network of Transformational Epicenters, each honoring local culture while maintaining the same ethical, medical, and spiritual standards.
+      </p>
+      <p>
+        Every location will carry the same commitment to excellence, safety, and transformation - creating a worldwide community of healing sanctuaries where anyone can return to life whole, present, and awake.
+      </p>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="cta-section">
+    <div class="cta-section__bg"></div>
+    <div class="cta-section__pattern"></div>
+    <div class="container">
+      <div class="cta-section__content">
+        <h2 class="cta-section__title">Experience the Sanctuary</h2>
+        <p class="cta-section__text">
+          Begin your journey to transformation. Our admissions team is ready to guide you through the process with care and confidentiality.
+        </p>
+        <div style="display: flex; gap: var(--space-4); justify-content: center; flex-wrap: wrap;">
+          <a href="apply.html" class="btn btn--gold btn--lg">Begin Your Application</a>
+          <a href="programs.html" class="btn btn--white btn--lg">View Programs</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <div class="footer__logo">Transformational Epicenter</div>
+          <p class="footer__tagline">
+            "This is not about escaping life. It's about helping people return to life whole, present, sovereign, and awake."
+          </p>
+        </div>
+
+        <div>
+          <h4 class="footer__heading">Explore</h4>
+          <div class="footer__links">
+            <a href="experience.html" class="footer__link">The Experience</a>
+            <a href="programs.html" class="footer__link">Programs</a>
+            <a href="science.html" class="footer__link">The Science</a>
+            <a href="location.html" class="footer__link">The Location</a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer__heading">Learn More</h4>
+          <div class="footer__links">
+            <a href="about.html" class="footer__link">About Us</a>
+            <a href="about.html#team" class="footer__link">Our Team</a>
+            <a href="apply.html#faq" class="footer__link">FAQs</a>
+            <a href="apply.html" class="footer__link">Apply Now</a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer__heading">Contact</h4>
+          <div class="footer__links">
+            <a href="mailto:hello@transformational-epicenter.com" class="footer__link">hello@transformational-epicenter.com</a>
+            <a href="apply.html" class="footer__link">Schedule a Call</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <p class="footer__copyright">
+          &copy; 2024 Transformational Epicenter. All rights reserved.
+        </p>
+        <div class="footer__social">
+          <a href="#" aria-label="Instagram">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+              <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+            </svg>
+          </a>
+          <a href="#" aria-label="LinkedIn">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+              <rect x="2" y="9" width="4" height="12"/>
+              <circle cx="4" cy="4" r="2"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

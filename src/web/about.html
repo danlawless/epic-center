@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Learn about Transformational Epicenter - our mission, vision, values, and the team dedicated to helping you return to life whole, present, and awake.">
+
+  <title>About Us | Transformational Epicenter</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@300;400;500;600&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <style>
+    .value-card {
+      padding: var(--space-8);
+      background: white;
+      border-radius: var(--radius-xl);
+      box-shadow: var(--shadow-md);
+      text-align: center;
+      transition: all var(--transition-normal);
+    }
+
+    .value-card:hover {
+      transform: translateY(-4px);
+      box-shadow: var(--shadow-lg);
+    }
+
+    .value-card__icon {
+      width: 72px;
+      height: 72px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto var(--space-5);
+      background: linear-gradient(135deg, var(--primary-800) 0%, var(--primary-600) 100%);
+      border-radius: var(--radius-xl);
+      font-size: var(--text-3xl);
+    }
+
+    .value-card__title {
+      font-size: var(--text-xl);
+      margin-bottom: var(--space-3);
+    }
+
+    .value-card__text {
+      font-size: var(--text-sm);
+      color: var(--neutral-600);
+      margin-bottom: 0;
+    }
+
+    .team-member {
+      text-align: center;
+    }
+
+    .team-member__image {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      margin: 0 auto var(--space-5);
+      overflow: hidden;
+      background-color: var(--neutral-200);
+    }
+
+    .team-member__name {
+      font-size: var(--text-xl);
+      margin-bottom: var(--space-1);
+    }
+
+    .team-member__role {
+      font-family: var(--font-accent);
+      font-size: var(--text-sm);
+      color: var(--secondary-500);
+      margin-bottom: var(--space-3);
+    }
+
+    .team-member__bio {
+      font-size: var(--text-sm);
+      color: var(--neutral-600);
+    }
+
+    .belief-item {
+      display: flex;
+      gap: var(--space-6);
+      padding: var(--space-8) 0;
+      border-bottom: 1px solid var(--neutral-200);
+    }
+
+    .belief-item:last-child {
+      border-bottom: none;
+    }
+
+    .belief-item__number {
+      font-family: var(--font-heading);
+      font-size: var(--text-4xl);
+      color: var(--secondary-400);
+      line-height: 1;
+      flex-shrink: 0;
+      width: 60px;
+    }
+
+    .belief-item__content h4 {
+      font-size: var(--text-xl);
+      margin-bottom: var(--space-2);
+    }
+
+    .belief-item__content p {
+      color: var(--neutral-600);
+      margin-bottom: 0;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav" role="navigation" aria-label="Main navigation">
+    <div class="container">
+      <div class="nav__inner">
+        <a href="index.html" class="nav__logo">
+          Transformational<span>Epicenter</span>
+        </a>
+
+        <div class="nav__links">
+          <a href="experience.html" class="nav__link">The Experience</a>
+          <a href="programs.html" class="nav__link">Programs</a>
+          <a href="science.html" class="nav__link">The Science</a>
+          <a href="location.html" class="nav__link">The Location</a>
+          <a href="about.html" class="nav__link nav__link--active">About</a>
+          <a href="apply.html" class="btn btn--gold nav__cta">Begin Your Journey</a>
+        </div>
+
+        <button class="nav__toggle" aria-label="Toggle menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <header class="page-header">
+    <div class="page-header__bg">
+      <!-- PLACEHOLDER IMAGE: about-hero.jpg -->
+      <div class="image-placeholder" style="width: 100%; height: 100%; min-height: 60vh; border-radius: 0;">
+        <div class="image-placeholder__text">
+          <div class="image-placeholder__icon">&#128156;</div>
+          <div class="image-placeholder__label">[IMAGE: about-hero.jpg]</div>
+        </div>
+      </div>
+      <div class="page-header__overlay"></div>
+    </div>
+    <div class="page-header__content">
+      <p class="eyebrow mb-4" style="color: var(--secondary-400);">Our Story</p>
+      <h1 class="page-header__title">Why We Exist</h1>
+      <p class="page-header__subtitle">
+        We exist because millions of people are suffering unnecessarily - disconnected from their bodies, their purpose, and their essential nature.
+      </p>
+    </div>
+  </header>
+
+  <!-- Mission -->
+  <section class="section">
+    <div class="container container--text text-center">
+      <h2 class="mb-6">Our Mission</h2>
+      <p class="lead mb-8">
+        To create environments and experiences where people can remember who they really are - returning to life whole, present, sovereign, and awake.
+      </p>
+      <p class="quote">
+        "This is not about escaping life. It's about helping people return to life whole, present, sovereign, and awake."
+      </p>
+    </div>
+  </section>
+
+  <!-- The Problem We Solve -->
+  <section class="section section--cream">
+    <div class="container">
+      <div class="content-section">
+        <div class="content-section__text">
+          <p class="eyebrow mb-4">The Gap</p>
+          <h2 class="mb-6">What Others Miss</h2>
+          <p class="mb-6">
+            Modern humans are suffering from a crisis of disconnection. Traditional approaches fail to address the full picture:
+          </p>
+          <ul style="display: grid; gap: var(--space-4); margin-bottom: var(--space-6);">
+            <li style="display: flex; gap: var(--space-3);">
+              <span style="color: var(--error-500);">&#10005;</span>
+              <span><strong>Traditional healthcare</strong> treats symptoms without reaching the root</span>
+            </li>
+            <li style="display: flex; gap: var(--space-3);">
+              <span style="color: var(--error-500);">&#10005;</span>
+              <span><strong>Luxury wellness</strong> offers temporary escape without lasting change</span>
+            </li>
+            <li style="display: flex; gap: var(--space-3);">
+              <span style="color: var(--error-500);">&#10005;</span>
+              <span><strong>Spiritual retreats</strong> can bypass the body and nervous system</span>
+            </li>
+            <li style="display: flex; gap: var(--space-3);">
+              <span style="color: var(--error-500);">&#10005;</span>
+              <span><strong>Plant medicine ceremonies</strong> without integration leave experiences unanchored</span>
+            </li>
+          </ul>
+          <p>
+            <strong>Transformational Epicenter bridges these gaps</strong> - bringing together medical rigor, sacred reverence, luxury hospitality, and deep integration into one comprehensive approach.
+          </p>
+        </div>
+
+        <div class="content-section__image">
+          <!-- PLACEHOLDER IMAGE: about-vision.jpg -->
+          <div class="image-placeholder" style="height: 500px;">
+            <div class="image-placeholder__text">
+              <div class="image-placeholder__icon">&#127919;</div>
+              <div class="image-placeholder__label">[IMAGE: about-vision.jpg]</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- What We Believe -->
+  <section class="section">
+    <div class="container container--content">
+      <div class="text-center mb-12">
+        <p class="eyebrow mb-4">Our Philosophy</p>
+        <h2 class="mb-6">What We Believe</h2>
+      </div>
+
+      <div class="belief-item">
+        <span class="belief-item__number">01</span>
+        <div class="belief-item__content">
+          <h4>Healing Happens at the Root</h4>
+          <p>Surface-level interventions create surface-level change. True transformation requires addressing unprocessed trauma, dysregulated nervous systems, fragmented identity, and spiritual disconnection. We go to the root.</p>
+        </div>
+      </div>
+
+      <div class="belief-item">
+        <span class="belief-item__number">02</span>
+        <div class="belief-item__content">
+          <h4>The Body Keeps the Score</h4>
+          <p>Transformation is not merely cognitive. It is somatic, neurological, cellular. Our protocols honor the body as the primary vessel of healing - supporting it with medical precision and nurturing it with exceptional care.</p>
+        </div>
+      </div>
+
+      <div class="belief-item">
+        <span class="belief-item__number">03</span>
+        <div class="belief-item__content">
+          <h4>Safety Creates Surrender</h4>
+          <p>The nervous system cannot heal in a state of vigilance. We create environments of profound safety - medical, physical, emotional, and spiritual - so guests can fully surrender to their process.</p>
+        </div>
+      </div>
+
+      <div class="belief-item">
+        <span class="belief-item__number">04</span>
+        <div class="belief-item__content">
+          <h4>Medicine is a Catalyst, Not a Destination</h4>
+          <p>Plant medicine can open doors that years of therapy cannot. But the medicine alone is not the transformation. The real work is the integration - anchoring insights into daily life, identity, and purpose.</p>
+        </div>
+      </div>
+
+      <div class="belief-item">
+        <span class="belief-item__number">05</span>
+        <div class="belief-item__content">
+          <h4>Luxury is Love Made Material</h4>
+          <p>We reject the false dichotomy between spiritual depth and material comfort. Luxury is not indulgence - it is the physical expression of care. Every detail says: "You are worth this attention."</p>
+        </div>
+      </div>
+
+      <div class="belief-item">
+        <span class="belief-item__number">06</span>
+        <div class="belief-item__content">
+          <h4>Transformation Requires a Continuum</h4>
+          <p>A retreat is not an event. It is a phase in a longer arc. We support guests before they arrive, during their stay, and long after they leave. The full arc creates lasting change.</p>
+        </div>
+      </div>
+
+      <div class="belief-item">
+        <span class="belief-item__number">07</span>
+        <div class="belief-item__content">
+          <h4>Community Sustains Change</h4>
+          <p>Individual transformation flourishes within supportive community. We build containers for ongoing connection - both digital and physical - so no one walks the integration path alone.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Values -->
+  <section class="section section--dark">
+    <div class="container">
+      <div class="text-center mb-12">
+        <p class="eyebrow mb-4" style="color: var(--secondary-400);">Guiding Principles</p>
+        <h2 class="mb-6">Our Core Values</h2>
+      </div>
+
+      <div class="grid grid--4">
+        <div class="value-card">
+          <div class="value-card__icon">&#128737;</div>
+          <h4 class="value-card__title">Safety</h4>
+          <p class="value-card__text">Medical rigor and sacred containment as the foundation of everything we do.</p>
+        </div>
+
+        <div class="value-card">
+          <div class="value-card__icon">&#10024;</div>
+          <h4 class="value-card__title">Transformation</h4>
+          <p class="value-card__text">Deep, lasting change at the root - not just symptom management or temporary relief.</p>
+        </div>
+
+        <div class="value-card">
+          <div class="value-card__icon">&#127775;</div>
+          <h4 class="value-card__title">Excellence</h4>
+          <p class="value-card__text">Care expressed through exceptional quality in every detail and interaction.</p>
+        </div>
+
+        <div class="value-card">
+          <div class="value-card__icon">&#128161;</div>
+          <h4 class="value-card__title">Integration</h4>
+          <p class="value-card__text">Supporting the full arc, not just the peak experience - lasting change takes time.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Team Section -->
+  <section class="section" id="team">
+    <div class="container">
+      <div class="text-center mb-12">
+        <p class="eyebrow mb-4">Leadership</p>
+        <h2 class="mb-6">Our Team</h2>
+        <p class="lead" style="max-width: 700px; margin: 0 auto;">
+          A multidisciplinary team united by a shared commitment to transformational healing, medical excellence, and human flourishing.
+        </p>
+      </div>
+
+      <div class="grid grid--4">
+        <div class="team-member">
+          <div class="team-member__image">
+            <!-- PLACEHOLDER IMAGE: team-medical-director.jpg -->
+            <div class="image-placeholder" style="height: 100%; min-height: 0; border-radius: 50%;">
+              <div class="image-placeholder__text">
+                <div class="image-placeholder__icon" style="font-size: var(--text-xl);">&#129658;</div>
+              </div>
+            </div>
+          </div>
+          <h4 class="team-member__name">Medical Director</h4>
+          <p class="team-member__role">Clinical Leadership</p>
+          <p class="team-member__bio">Overseeing all medical protocols, safety standards, and clinical outcomes.</p>
+        </div>
+
+        <div class="team-member">
+          <div class="team-member__image">
+            <!-- PLACEHOLDER IMAGE: team-clinical-lead.jpg -->
+            <div class="image-placeholder" style="height: 100%; min-height: 0; border-radius: 50%;">
+              <div class="image-placeholder__text">
+                <div class="image-placeholder__icon" style="font-size: var(--text-xl);">&#128104;&#8205;&#9877;</div>
+              </div>
+            </div>
+          </div>
+          <h4 class="team-member__name">Clinical Lead</h4>
+          <p class="team-member__role">Plant Medicine</p>
+          <p class="team-member__bio">Guiding ceremony protocols, facilitator training, and integration standards.</p>
+        </div>
+
+        <div class="team-member">
+          <div class="team-member__image">
+            <!-- PLACEHOLDER IMAGE: team-experience-director.jpg -->
+            <div class="image-placeholder" style="height: 100%; min-height: 0; border-radius: 50%;">
+              <div class="image-placeholder__text">
+                <div class="image-placeholder__icon" style="font-size: var(--text-xl);">&#127775;</div>
+              </div>
+            </div>
+          </div>
+          <h4 class="team-member__name">Experience Director</h4>
+          <p class="team-member__role">Guest Journey</p>
+          <p class="team-member__bio">Ensuring every touchpoint serves transformation and exceeds expectations.</p>
+        </div>
+
+        <div class="team-member">
+          <div class="team-member__image">
+            <!-- PLACEHOLDER IMAGE: team-operations-lead.jpg -->
+            <div class="image-placeholder" style="height: 100%; min-height: 0; border-radius: 50%;">
+              <div class="image-placeholder__text">
+                <div class="image-placeholder__icon" style="font-size: var(--text-xl);">&#128736;</div>
+              </div>
+            </div>
+          </div>
+          <h4 class="team-member__name">Operations Lead</h4>
+          <p class="team-member__role">Facility & Logistics</p>
+          <p class="team-member__bio">Managing the sanctuary and ensuring seamless operational excellence.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Long-Term Vision -->
+  <section class="section section--cream">
+    <div class="container">
+      <div class="content-section content-section--reverse">
+        <div class="content-section__text">
+          <p class="eyebrow mb-4">The Vision</p>
+          <h2 class="mb-6">Building a Global Network</h2>
+          <p class="mb-6">
+            Our Mexico sanctuary is the first of many. We envision a world where transformational healing is accessible to those ready for deep change - a global network united by shared values and standards.
+          </p>
+
+          <div class="timeline" style="margin-top: var(--space-8);">
+            <div class="timeline__item">
+              <span class="timeline__phase">Phase 1</span>
+              <h4 class="timeline__title">Foundation (Year 1-2)</h4>
+              <p class="timeline__text">Launch first location, establish protocols, build digital platform.</p>
+            </div>
+            <div class="timeline__item">
+              <span class="timeline__phase">Phase 2</span>
+              <h4 class="timeline__title">Optimization (Year 2-3)</h4>
+              <p class="timeline__text">Refine based on outcomes, expand platform, build reputation.</p>
+            </div>
+            <div class="timeline__item">
+              <span class="timeline__phase">Phase 3</span>
+              <h4 class="timeline__title">Expansion (Year 3-10)</h4>
+              <p class="timeline__text">Additional locations, training academy, research partnerships.</p>
+            </div>
+            <div class="timeline__item">
+              <span class="timeline__phase">Phase 4</span>
+              <h4 class="timeline__title">Network (Year 10+)</h4>
+              <p class="timeline__text">30+ global locations, unified platform, research institute.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="content-section__image">
+          <!-- PLACEHOLDER IMAGE: about-global-vision.jpg -->
+          <div class="image-placeholder" style="height: 600px;">
+            <div class="image-placeholder__text">
+              <div class="image-placeholder__icon">&#127760;</div>
+              <div class="image-placeholder__label">[IMAGE: about-global-vision.jpg]</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="cta-section">
+    <div class="cta-section__bg"></div>
+    <div class="cta-section__pattern"></div>
+    <div class="container">
+      <div class="cta-section__content">
+        <h2 class="cta-section__title">Join Our Mission</h2>
+        <p class="cta-section__text">
+          Whether as a guest, team member, or partner - there are many ways to be part of this transformational movement.
+        </p>
+        <div style="display: flex; gap: var(--space-4); justify-content: center; flex-wrap: wrap;">
+          <a href="apply.html" class="btn btn--gold btn--lg">Begin Your Journey</a>
+          <a href="mailto:hello@transformational-epicenter.com" class="btn btn--white btn--lg">Get in Touch</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <div class="footer__logo">Transformational Epicenter</div>
+          <p class="footer__tagline">
+            "This is not about escaping life. It's about helping people return to life whole, present, sovereign, and awake."
+          </p>
+        </div>
+
+        <div>
+          <h4 class="footer__heading">Explore</h4>
+          <div class="footer__links">
+            <a href="experience.html" class="footer__link">The Experience</a>
+            <a href="programs.html" class="footer__link">Programs</a>
+            <a href="science.html" class="footer__link">The Science</a>
+            <a href="location.html" class="footer__link">The Location</a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer__heading">Learn More</h4>
+          <div class="footer__links">
+            <a href="about.html" class="footer__link">About Us</a>
+            <a href="about.html#team" class="footer__link">Our Team</a>
+            <a href="apply.html#faq" class="footer__link">FAQs</a>
+            <a href="apply.html" class="footer__link">Apply Now</a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer__heading">Contact</h4>
+          <div class="footer__links">
+            <a href="mailto:hello@transformational-epicenter.com" class="footer__link">hello@transformational-epicenter.com</a>
+            <a href="apply.html" class="footer__link">Schedule a Call</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <p class="footer__copyright">
+          &copy; 2024 Transformational Epicenter. All rights reserved.
+        </p>
+        <div class="footer__social">
+          <a href="#" aria-label="Instagram">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+              <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+            </svg>
+          </a>
+          <a href="#" aria-label="LinkedIn">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+              <rect x="2" y="9" width="4" height="12"/>
+              <circle cx="4" cy="4" r="2"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
