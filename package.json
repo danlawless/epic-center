@@ -1,0 +1,26 @@
+{
+  "name": "transformational-epicenter",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Transformational Epicenter - A luxury medical retreat platform for deep healing through plant medicine, bio-optimization, and trauma integration",
+  "keywords": [
+    "wellness",
+    "medical retreat",
+    "healing",
+    "ibogaine",
+    "bio-optimization"
+  ],
+  "homepage": "https://github.com/danlawless/epic-center",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danlawless/epic-center.git"
+  },
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "npx serve src/web",
+    "dev": "npx serve src/web -l 3000"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

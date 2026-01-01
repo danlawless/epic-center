@@ -1,0 +1,28 @@
+# Documentation
+docs/
+design/
+*.md
+!src/web/**
+
+# Other applications (not part of web deployment)
+src/mobile/
+src/api/
+src/admin/
+src/shared/
+
+# Development files
+.git/
+.github/
+node_modules/
+.env*
+.DS_Store
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Infrastructure
+infrastructure/
